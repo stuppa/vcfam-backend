@@ -13,9 +13,14 @@ class User(BaseModel):
     objetivo: str
     historia: str
     alergias: str
-    incapacidades: str
+    enfermedad: str
     tiempo_eje: str
+    tiempo_disp_eje: str
+    com_live_style: str
+    live_style: str
+    lesion: str
     com_alergia: str
     com_fav: str
     com_nofav: str
+    pago: str
     
